@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import iconMap from './images/geo-alt-fill.svg';
 import iconDown from './images/caret-down-fill.svg';
 import './App.css';
@@ -7,12 +7,15 @@ import Model from './component/Model';
 
 
 function App() {
-  
+  const [showModel, isShowModel] = useState(false)
+  const handleClick =()=>{
+    isShowModel(!showModel);
+  }
   return (
-    <div>
-      <Nav/>
-      <Model/>
-    </div>
+    <>
+      <Nav isShowModel={handleClick}/>
+      {showModel ? <Model isShowModel={handleClick}/> : ''}
+    </>
   );
 }
 
