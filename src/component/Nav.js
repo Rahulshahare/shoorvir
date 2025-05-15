@@ -7,10 +7,10 @@ function Nav( {isShowModel} ){
         console.log('Clicked');
       };
     return(
-        <nav class="navbar fixed-top bg-body-white border-bottom">
-            <div class="container-fluid">
+        <nav className="navbar fixed-top bg-body-white border-bottom">
+            <div className="container-fluid">
                 <div className="col">
-                    <a class="navbar-brand" href="#">SHOORVIR</a>
+                    <a className="navbar-brand" href="#">SHOORVIR</a>
                 </div>
                 <div className='col'>
                 <div className="border mx-5 my-2 p-2 rounded pointer" onClick={isShowModel}>
