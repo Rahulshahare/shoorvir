@@ -9,3 +9,8 @@
 body{
     padding-top: 100px;
 }
+
+.siteLogo{
+    font-weight: 700;
+    font-size: 2rem;
+}
