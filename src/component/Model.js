@@ -18,19 +18,19 @@ function Model (){
                         <button type="button" className="btn-close"  aria-label="Close" onClick={()=>UIStore.update(s=>{s.showModel = !s.showModel})}></button>
                     </div>
                     <div className="modal-body">
-                        <select className="form-select form-select-lg border mb-2" aria-label="Default select example">
+                        <select className="form-select form-select-lg border mb-3" aria-label="Default select example">
                             <option defaultValue>State</option>
                         </select>
-                        <select className="form-select form-select-lg border mb-2" aria-label="Default select example">
+                        <select className="form-select form-select-lg border mb-3" aria-label="Default select example">
                             <option defaultValue>District</option>
                         </select>
-                        <select className="form-select form-select-lg border mb-2" aria-label="Default select example">
+                        <select className="form-select form-select-lg border mb-3" aria-label="Default select example">
                             <option defaultValue>Sub-district</option>
                         </select>
-                        <select className="form-select form-select-lg border mb-2" aria-label="Default select example">
+                        <select className="form-select form-select-lg border mb-3" aria-label="Default select example">
                             <option defaultValue>City</option>
                         </select>
-                        <select className="form-select form-select-lg border mb-2" aria-label="Default select example">
+                        <select className="form-select form-select-lg border mb-3" aria-label="Default select example">
                             <option defaultValue>Local area</option>
                         </select>
 

@@ -12,16 +12,16 @@ function Nav( ){
                 </div>
                 <div className='col'>
                     <div className="d-grid mx-1 my-1 " onClick={()=>UIStore.update(s =>{s.showModel = !s.showModel})}> 
-                        <button type="button" class="btn btn-outline border btn-lg">
+                        <button type="button" className="btn btn-outline border btn-lg">
                             <div className='row'>
                                 <div className="col text-center">
-                                    <img src={iconMap}/>
+                                    <img src={iconMap} alt="MapIcon"/>
                                 </div>
                                 <div className="col-8">
                                     <h5 className=' text-secondary text-center'>Shyam Nagari, Pandharka</h5>
                                 </div>
                                 <div className="col text-center">
-                                    <img src={iconDown}/>
+                                    <img src={iconDown} alt="downIcon"/>
                                 </div>
                             </div>
                         </button>
