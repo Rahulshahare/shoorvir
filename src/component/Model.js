@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { UIStore } from "../state/AppState";
 import iconLocation from './../images/crosshair.svg';
 

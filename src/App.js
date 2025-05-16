@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import { Routes,Route } from 'react-router';
+import { Routes,Route, Router } from 'react-router';
 import Nav from './component/Nav';
 import Model from './component/Model';
 import { UIStore } from './state/AppState';
@@ -13,12 +13,13 @@ function App() {
   
   return (
     <div className='page'>
-      <Nav/>
-      {showModel ? <Model/> : ''}
-      <Routes>
-        <Route path="/" element={<HomePage/>}/>
-      </Routes>
-    </div>
+        <Nav/>
+        {showModel ? <Model/> : ''}
+        <Routes>
+          <Route path="/" element={<HomePage/>}/>
+        </Routes>
+      </div>
+    
   );
 }
 
