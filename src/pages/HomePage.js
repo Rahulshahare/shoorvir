@@ -14,7 +14,7 @@ function HomePage(){
                     <h1 className="text-center text-secondary">Home services at your doorstep</h1>
                 </div>
             </div>
-            <div className="row">
+            <div className="row" id="wrapper">
                 {
                     categoryList.map((category, index) => {
                         return (
@@ -23,7 +23,8 @@ function HomePage(){
                                     <div className="categoryListBg pt-2 mt-2 rounded">
                                         <img className="responsive" src={iconCertified} alt="centified" width={100}/>
                                     </div>
-                                    <p className="text-center mt-3 font1rem fontWeight600">CERTIFIED {category}</p>
+                                    <p className="text-center mt-3 font1rem fontWeight600">
+                                        <span className="text-secondary">CERTIFIED</span> {category}</p>
                                 </button> 
                             </div>
                         )
