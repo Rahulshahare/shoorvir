@@ -1,8 +1,8 @@
 import React from "react";
-
+import { UIStore } from "../state/AppState";
 import iconMap from './../images/geo-alt-fill.svg';
 import iconDown from './../images/caret-down-fill.svg';
-function Nav( {isShowModel} ){
+function Nav( ){
     const handleClick = () => {
         console.log('Clicked');
       };
@@ -13,7 +13,8 @@ function Nav( {isShowModel} ){
                     <a className="navbar-brand" href="#">SHOORVIR</a>
                 </div>
                 <div className='col'>
-                <div className="border mx-5 my-2 p-2 rounded pointer" onClick={isShowModel}>
+                <div className="border mx-5 my-2 p-2 rounded pointer" onClick={()=>UIStore.update(s =>{s.showModel = !s.showModel})}> 
+                
                     <div className='row '>
                     <div className="col text-center">
                         <img src={iconMap}/>

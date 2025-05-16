@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import { UIStore } from "../state/AppState";
 import iconLocation from './../images/crosshair.svg';
 
-function Model ( {isShowModel}){
+function Model (){
     
     return(
          
@@ -14,7 +15,7 @@ function Model ( {isShowModel}){
                             <img src={iconLocation}/>
                             <span className="mx-2">Shyam nagari, Pandharkawada, Maharashtra</span>
                         </h1></a>
-                        <button type="button" className="btn-close"  aria-label="Close" onClick={isShowModel}></button>
+                        <button type="button" className="btn-close"  aria-label="Close" onClick={()=>UIStore.update(s=>{s.showModel = !s.showModel})}></button>
                     </div>
                     <div className="modal-body">
                         <select className="form-select form-select-lg border mb-2" aria-label="Default select example">
