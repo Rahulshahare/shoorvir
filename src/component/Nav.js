@@ -5,26 +5,27 @@ import iconDown from './../images/caret-down-fill.svg';
 function Nav( ){
     
     return(
-        <nav className="navbar fixed-top bg-body-white border-bottom">
+        <nav className="navbar fixed-top bg-body bg-white border-bottom">
             <div className="container-fluid">
                 <div className="col">
-                    <a className="navbar-brand" href="/">SHOORVIR</a>
+                    <a className="navbar-brand siteLogo" href="/">SHOORVIR</a>
                 </div>
                 <div className='col'>
-                <div className="border mx-5 my-1 p-2 rounded pointer" onClick={()=>UIStore.update(s =>{s.showModel = !s.showModel})}> 
-                
-                    <div className='row '>
-                    <div className="col text-center">
-                        <img src={iconMap}/>
+                    <div className="d-grid mx-1 my-1 " onClick={()=>UIStore.update(s =>{s.showModel = !s.showModel})}> 
+                        <button type="button" class="btn btn-outline border btn-lg">
+                            <div className='row'>
+                                <div className="col text-center">
+                                    <img src={iconMap}/>
+                                </div>
+                                <div className="col-8">
+                                    <h5 className=' text-secondary text-center'>Shyam Nagari, Pandharka</h5>
+                                </div>
+                                <div className="col text-center">
+                                    <img src={iconDown}/>
+                                </div>
+                            </div>
+                        </button>
                     </div>
-                    <div className="col-8">
-                        <h5 className=' text-secondary text-center'>Shyam Nagari, Pandharka</h5>
-                    </div>
-                    <div className="col text-center">
-                        <img src={iconDown}/>
-                    </div>
-                    </div>
-                </div>
                 </div>
                 <div className="col"></div>
             </div>
