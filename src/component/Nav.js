@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 import { UIStore } from "../state/AppState";
 import iconMap from './../images/geo-alt-fill.svg';
 import iconDown from './../images/caret-down-fill.svg';
@@ -8,7 +9,8 @@ function Nav( ){
         <nav className="navbar fixed-top bg-body bg-white border-bottom">
             <div className="container">
                 <div className="col">
-                    <a className="navbar-brand siteLogo" href="/">SHOORVIR</a>
+                    <NavLink className={'navbar-brand siteLogo'} to={'/'}>SHOORVIR</NavLink>
+                    {/* <a className="navbar-brand siteLogo">SHOORVIR</a> */}
                 </div>
                 <div className='col'>
                     <div className="d-grid mx-1 my-1 " onClick={()=>UIStore.update(s =>{s.showModel = !s.showModel})}> 
