@@ -23,6 +23,17 @@ body{
 .font1rem{
     font-size: 1rem;
 }
+.font1point2rem{
+    font-size: 1.2rem;
+}
 .fontWeight600{
     font-weight:600;
+}
+
+/* Hiding bar of scrollbar  */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+.scrollSmooth{
+    scroll-behavior: smooth;
 }
