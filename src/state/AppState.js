@@ -53,5 +53,5 @@ export const Category = new Store({
 
 registerInDevtools({
     UIStore,
-    Category
+    Category,
 })
