@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shoorvir/static/css/main.6b14ab34.css",
-    "main.js": "/shoorvir/static/js/main.073ab15b.js",
+    "main.js": "/shoorvir/static/js/main.791ec725.js",
     "service-worker.js": "/shoorvir/service-worker.js",
     "static/media/undraw_certificate_71gt.svg": "/shoorvir/static/media/undraw_certificate_71gt.e7e15a45c80cf3ba93fa12341aa6b109.svg",
     "index.html": "/shoorvir/index.html",
@@ -11,10 +11,10 @@
     "static/media/caret-down-fill.svg": "/shoorvir/static/media/caret-down-fill.27c49128156891d28b6305f401c30063.svg",
     "static/media/geo-alt-fill.svg": "/shoorvir/static/media/geo-alt-fill.0db42c81a64e186b831b353c017dd952.svg",
     "main.6b14ab34.css.map": "/shoorvir/static/css/main.6b14ab34.css.map",
-    "main.073ab15b.js.map": "/shoorvir/static/js/main.073ab15b.js.map"
+    "main.791ec725.js.map": "/shoorvir/static/js/main.791ec725.js.map"
   },
   "entrypoints": [
     "static/css/main.6b14ab34.css",
-    "static/js/main.073ab15b.js"
+    "static/js/main.791ec725.js"
   ]
 }
