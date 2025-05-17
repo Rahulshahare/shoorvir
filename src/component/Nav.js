@@ -6,7 +6,7 @@ function Nav( ){
     
     return(
         <nav className="navbar fixed-top bg-body bg-white border-bottom">
-            <div className="container-fluid">
+            <div className="container">
                 <div className="col">
                     <a className="navbar-brand siteLogo" href="/">SHOORVIR</a>
                 </div>

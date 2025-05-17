@@ -31,9 +31,7 @@ body{
 }
 
 /* Hiding bar of scrollbar  */
-::-webkit-scrollbar {
-    width: 0px;
-  }
+
 .scrollSmooth{
     scroll-behavior: smooth;
 }
