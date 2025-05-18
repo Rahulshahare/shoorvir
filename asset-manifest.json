@@ -1,20 +1,16 @@
 {
   "files": {
-    "main.css": "/shoorvir/static/css/main.6b14ab34.css",
-    "main.js": "/shoorvir/static/js/main.791ec725.js",
+    "main.css": "/shoorvir/static/css/main.96e63eeb.css",
+    "main.js": "/shoorvir/static/js/main.4e8bddf3.js",
     "service-worker.js": "/shoorvir/service-worker.js",
     "static/media/undraw_certificate_71gt.svg": "/shoorvir/static/media/undraw_certificate_71gt.e7e15a45c80cf3ba93fa12341aa6b109.svg",
     "index.html": "/shoorvir/index.html",
     "static/media/crosshair.svg": "/shoorvir/static/media/crosshair.5b74d826d33db39bfc795758c69fc0f6.svg",
-    "static/media/caret-right-fill.svg": "/shoorvir/static/media/caret-right-fill.b654783430974bfcf6168e3d43ba5131.svg",
-    "static/media/caret-left-fill.svg": "/shoorvir/static/media/caret-left-fill.438ad83b2317c15ad0ed662cf6dd581f.svg",
     "static/media/caret-down-fill.svg": "/shoorvir/static/media/caret-down-fill.27c49128156891d28b6305f401c30063.svg",
-    "static/media/geo-alt-fill.svg": "/shoorvir/static/media/geo-alt-fill.0db42c81a64e186b831b353c017dd952.svg",
-    "main.6b14ab34.css.map": "/shoorvir/static/css/main.6b14ab34.css.map",
-    "main.791ec725.js.map": "/shoorvir/static/js/main.791ec725.js.map"
+    "static/media/geo-alt-fill.svg": "/shoorvir/static/media/geo-alt-fill.0db42c81a64e186b831b353c017dd952.svg"
   },
   "entrypoints": [
-    "static/css/main.6b14ab34.css",
-    "static/js/main.791ec725.js"
+    "static/css/main.96e63eeb.css",
+    "static/js/main.4e8bddf3.js"
   ]
 }
