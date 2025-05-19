@@ -36,7 +36,7 @@ function Model (){
 
                     </div>
                     <div className="modal-footer">
-                        <button type="button" className="btn btn-primary">Select</button>
+                        <button type="button" className="btn btn-primary btn-lg col-12">Select</button>
                     </div>
                 </div>
             </div>
